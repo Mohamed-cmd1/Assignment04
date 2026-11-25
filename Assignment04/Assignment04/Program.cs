@@ -11,19 +11,19 @@ using System.ComponentModel;
 //Console.WriteLine(book1.Title);
 #endregion
 #region Q4 To Q8
-//Book book = new Book();
-//Genre genre = Genre.Science;
-//Console.WriteLine(genre);
-//Console.WriteLine((int)Genre.Science);//Q5
-//Console.WriteLine((int)Genre.Fiction);
-//Console.WriteLine((int)Genre.NonFiction);
-//int genreNumber = 1;
-//Genre genreFromNumber = (Genre)genreNumber; //Q6
-//Console.WriteLine(genreFromNumber);
-//Genre genre1 = Genre.Fiction;
-//Console.WriteLine(genre1.ToString()); Q7
-//string genreText = "Science";
-//Console.WriteLine(Enum.Parse<Genre>(genreText)); //Q8
+Book book = new Book();
+Genre genre = Genre.Science;
+Console.WriteLine(genre); //Q4
+Console.WriteLine((int)Genre.Science);//Q5
+Console.WriteLine((int)Genre.Fiction);
+Console.WriteLine((int)Genre.NonFiction);
+int genreNumber = 1;
+Genre genreFromNumber = (Genre)genreNumber; //Q6
+Console.WriteLine(genreFromNumber);
+Genre genre1 = Genre.Fiction;
+Console.WriteLine(genre1.ToString()); //Q7
+string genreText = "Science";
+Console.WriteLine(Enum.Parse<Genre>(genreText)); //Q8
 
 #endregion
 #region Q9

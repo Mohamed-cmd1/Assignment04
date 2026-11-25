@@ -10,5 +10,11 @@ namespace Assignment04
         internal int copiesInStock;
         public string Title;
     }
-    
+    internal enum Genre
+    {
+        Fiction,
+        NonFiction,
+        Science,
+    }
+
 }
